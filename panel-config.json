@@ -1,12 +1,16 @@
 {
     "layout": {
         "rows": "5",
-        "cols": "5"
+        "cols": "5",
+        "baketext": "False"
     },
     "tabs": {
         "type": "full"
     },
     "cuts": {
         "type": "vcuts"
+    },
+    "page": {
+        "posy": "50mm"
     }
 }
