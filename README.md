@@ -6,7 +6,7 @@
 - [4. License](#4-license)
 
 ## 1. Description
-This is a very simple and low level breakout board for the FUSB302B Programmable USB Type-C Controller chip. Actually it's a breakout board for the WQFN14 footprint with only the footprint on it, nothing else.  The project was implemented with KiCAD, as single board or as a panel. It contains ready-to-use Gerber files for both, the single board and the panel.
+This is a very simple and low level breakout board for the FUSB302B Programmable USB Type-C Controller chip. Actually it's a breakout board for the WQFN14 footprint with only the footprint on it, nothing else.  The project was implemented with KiCAD, as single board or as a panel. It contains ready-to-use Gerber files for both, the single board and the panel (5x5 pcs.). For PCBWay Project click [here](https://www.pcbway.com/project/shareproject/FUSB302_Breakout_Board_Panel_5x5_pcs_0b5aa18a.html).
 
 ## 2. Folder structure
 TBC
