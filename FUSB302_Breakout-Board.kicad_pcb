@@ -602,6 +602,9 @@
   (gr_text "1" (at 145.415 107.315) (layer "F.SilkS") (tstamp d47eca4f-1821-47f8-820e-06003aa8b8f9)
     (effects (font (size 1 1) (thickness 0.15)))
   )
+  (gr_text "Prj: ${TITLE}\nRev: ${REVISION}" (at 149.86 120.65) (layer "B.Mask") (tstamp f04b6b7c-5e30-46d9-b57a-eb43be8f3c40)
+    (effects (font (size 0.4 0.4) (thickness 0.1)) (justify mirror))
+  )
 
   (segment (start 156.845 114.94) (end 155.951 114.046) (width 0.25) (layer "F.Cu") (net 1) (tstamp 22cfbe84-15c7-4f1f-bf9c-5d88d1ed6238))
   (segment (start 151.80966 114.046) (end 151.283052 114.572608) (width 0.25) (layer "F.Cu") (net 1) (tstamp 4b2b002f-9b65-4824-aac7-b06071897496))
@@ -638,10 +641,10 @@
   (segment (start 152.748553 112.4) (end 150.929499 114.219054) (width 0.25) (layer "F.Cu") (net 8) (tstamp 77a6a922-733a-4fd8-a57f-76628fd7fbcb))
   (segment (start 156.845 109.86) (end 154.581447 109.86) (width 0.25) (layer "F.Cu") (net 8) (tstamp 7ae91be1-c715-4f15-8cc2-4014db1eebcd))
   (segment (start 154.581447 109.86) (end 150.575946 113.865501) (width 0.25) (layer "F.Cu") (net 8) (tstamp f21e2d89-2bf7-407c-b695-b6c5f55164cd))
-  (segment (start 149.253724 113.688724) (end 149.320831 113.688724) (width 0.25) (layer "F.Cu") (net 9) (tstamp 9cdea19e-8dda-42fe-83c6-3dfd13bdb2c6))
-  (segment (start 142.875 107.31) (end 149.253724 113.688724) (width 0.25) (layer "F.Cu") (net 9) (tstamp c55006c5-0668-4228-a59d-6a711c3f3b80))
+  (segment (start 142.942107 107.31) (end 149.320831 113.688724) (width 0.25) (layer "F.Cu") (net 9) (tstamp 5f368b04-a1dd-4b85-802a-bb70500650bc))
   (segment (start 156.845 107.32) (end 156.41434 107.32) (width 0.25) (layer "F.Cu") (net 9) (tstamp c5f72129-cf2b-4f81-b6fe-11e9a098fdbb))
   (segment (start 156.41434 107.32) (end 150.222392 113.511948) (width 0.25) (layer "F.Cu") (net 9) (tstamp d58f7c26-7dfb-4918-b2f5-674b56b54186))
+  (segment (start 142.875 107.31) (end 142.942107 107.31) (width 0.25) (layer "F.Cu") (net 9) (tstamp eba757c5-b5b5-4861-8fb1-7caa66db1604))
 
   (zone (net 7) (net_name "GND") (layer "B.Cu") (tstamp 9a3d0ff6-ef35-4962-9e70-db1731b90d08) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
